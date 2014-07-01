@@ -50,8 +50,8 @@ namespace CryptoNoteMiner
 
             string platformString = platform64bit ? "64bit" : "32bit";
 
-            simplewalletPath = AppDomain.CurrentDomain.BaseDirectory + @"binaries\simplewallet\" + platformString + @"\simplewallet.exe";
-            cpuminerPath = AppDomain.CurrentDomain.BaseDirectory + @"binaries\cpuminer\" + platformString + @"\minerd.exe";
+            simplewalletPath = AppDomain.CurrentDomain.BaseDirectory + @"binaries/simplewallet/" + platformString + @"/simplewallet.exe";
+            cpuminerPath = AppDomain.CurrentDomain.BaseDirectory + @"binaries/cpuminer/" + platformString + @"/minerd.exe";
 
             walletPath = AppDomain.CurrentDomain.BaseDirectory + @"wallet.address.txt";
 
